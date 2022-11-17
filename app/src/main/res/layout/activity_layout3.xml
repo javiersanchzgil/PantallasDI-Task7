@@ -29,13 +29,34 @@
             android:ems="10"
             android:inputType="textPersonName"
             android:hint="@string/surname"
-            android:layout_below="@id/name_field"/>
+            android:layout_below="@id/name_field"
+            android:layout_marginBottom="25dp"/>
 
-        <Spinner
-            android:id="@+id/state_spinner"
-            android:layout_width="wrap_content"
+        <TextView
+            android:id="@+id/civil_state_text"
+            android:layout_width="150dp"
+            android:textSize="20sp"
             android:layout_height="wrap_content"
             android:layout_below="@id/surname_field"
-            android:text="Estado Civil" />
+            android:text="@string/civilStaetText" />
+        <Spinner
+            android:id="@+id/state_spinner"
+            android:layout_width="150dp"
+            android:layout_height="40dp"
+            android:layout_below="@id/civil_state_text" />
+        <TextView
+            android:id="@+id/position_text"
+            android:layout_width="match_parent"
+            android:textSize="20sp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/surname_field"
+            android:layout_toEndOf="@id/civil_state_text"
+            android:text="@string/positionText" />
+        <Spinner
+            android:id="@+id/position_spinner"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_below="@id/civil_state_text"
+            android:layout_toEndOf="@id/state_spinner"/>
     </RelativeLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

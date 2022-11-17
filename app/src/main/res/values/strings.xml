@@ -27,4 +27,17 @@
     <string name="EnvioPrecio">$10</string>
     <string name="DescCupon">-$5</string>
     <string name="PrecioTotal">$48,4</string>
+    <string name="nameText">Nombre</string>
+    <string name="surname">Apellidos</string>
+    <string name="civilStaetText">Estado Civil</string>
+    <string name="positionText">Posicion</string>
+    <string-array name="civilStates">
+        <item>Casado</item>
+        <item>Soltero</item>
+    </string-array>
+    <string-array name="positions">
+        <item>Ventas</item>
+        <item>Informática</item>
+        <item>Jardinería</item>
+    </string-array>
 </resources>

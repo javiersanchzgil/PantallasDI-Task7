@@ -20,4 +20,11 @@
     <string name="Precio2">$10</string>
     <string name="Precio3">$18</string>
     <string name="Precio4">$13,4</string>
+    <string name="costo_envio">Costo envío</string>
+    <string name="cupon">Cupón</string>
+    <string name="total">Total</string>
+    <string name="PrecioSubtotal">$43,4</string>
+    <string name="EnvioPrecio">$10</string>
+    <string name="DescCupon">-$5</string>
+    <string name="PrecioTotal">$48,4</string>
 </resources>

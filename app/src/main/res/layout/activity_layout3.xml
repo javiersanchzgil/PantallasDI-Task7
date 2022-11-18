@@ -7,8 +7,10 @@
     tools:context=".Layout3">
 
     <RelativeLayout
-        android:layout_width="409dp"
+        android:layout_width="0dp"
         android:layout_height="729dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="24dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -19,44 +21,47 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
-            android:inputType="textPersonName"
-            android:hint="@string/nameText" />
+            android:hint="@string/nameText"
+            android:inputType="textPersonName" />
 
         <EditText
             android:id="@+id/surname_field"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:ems="10"
-            android:inputType="textPersonName"
-            android:hint="@string/surname"
             android:layout_below="@id/name_field"
-            android:layout_marginBottom="25dp"/>
+            android:layout_marginBottom="25dp"
+            android:ems="10"
+            android:hint="@string/surname"
+            android:inputType="textPersonName" />
 
         <TextView
             android:id="@+id/civil_state_text"
             android:layout_width="150dp"
-            android:textSize="20sp"
             android:layout_height="wrap_content"
             android:layout_below="@id/surname_field"
-            android:text="@string/civilStaetText" />
+            android:text="@string/civilStaetText"
+            android:textSize="20sp" />
+
         <Spinner
             android:id="@+id/state_spinner"
             android:layout_width="150dp"
             android:layout_height="40dp"
             android:layout_below="@id/civil_state_text" />
+
         <TextView
             android:id="@+id/position_text"
             android:layout_width="match_parent"
-            android:textSize="20sp"
             android:layout_height="wrap_content"
             android:layout_below="@id/surname_field"
             android:layout_toEndOf="@id/civil_state_text"
-            android:text="@string/positionText" />
+            android:text="@string/positionText"
+            android:textSize="20sp" />
+
         <Spinner
             android:id="@+id/position_spinner"
             android:layout_width="match_parent"
             android:layout_height="40dp"
             android:layout_below="@id/civil_state_text"
-            android:layout_toEndOf="@id/state_spinner"/>
+            android:layout_toEndOf="@id/state_spinner" />
     </RelativeLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

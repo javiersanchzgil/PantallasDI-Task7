@@ -20,7 +20,7 @@
 
             <TextView
                 android:id="@+id/textView5"
-                android:layout_width="324dp"
+                android:layout_width="296dp"
                 android:layout_height="wrap_content"
                 android:text="@string/producto"
                 android:textColor="@color/white"
@@ -43,7 +43,7 @@
 
             <TextView
                 android:id="@+id/textView7"
-                android:layout_width="321dp"
+                android:layout_width="305dp"
                 android:layout_height="wrap_content"
                 android:text="@string/jabon" />
 

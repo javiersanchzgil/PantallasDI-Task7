@@ -137,7 +137,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:paddingStart="160dp"
-                android:text="@string/subtotal" />
+                android:text="@string/subtotal"
+                android:textColor="#009688" />
 
             <TextView
                 android:id="@+id/textView16"
@@ -159,7 +160,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:paddingStart="160dp"
-                android:text="@string/costo_envio" />
+                android:text="@string/costo_envio"
+                android:textColor="#009688" />
 
             <TextView
                 android:id="@+id/textView18"
@@ -181,7 +183,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:paddingStart="160dp"
-                android:text="@string/cupon" />
+                android:text="@string/cupon"
+                android:textColor="#009688" />
 
             <TextView
                 android:id="@+id/textView20"
@@ -203,7 +206,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:paddingStart="160dp"
-                android:text="@string/total" />
+                android:text="@string/total"
+                android:textColor="#009688" />
 
             <TextView
                 android:id="@+id/textView22"
